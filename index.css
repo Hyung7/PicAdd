@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body {
+  margin: 8px;
+}
+
+div.wrapper.waterFall {
+  width: 770px;
+  height: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  width: 70%;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.category {
+  float: left;
+  width: 500px;
+  height: 50px;
+}
+
+span {
+  font: 17px/50px SimSun;
+}
+
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  line-height: 50px;
+  font: 16px/50px SimSun;
+}
+
+label::before {
+  content: '';
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+input:checked+label::before {
+  width: 5px;
+  height: 5px;
+  border: 4px solid #409EFF;
+}
+
+.arrangement {
+  float: right;
+  width: 200px;
+  height: 50px;
+}
+
+img.barrel {
+  margin: 2px;
+  vertical-align: middle;
+}
+
+img.waterFall {
+  border-radius: 10px;
+  position: absolute;
+}
