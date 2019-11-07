@@ -76,7 +76,6 @@ $(function () {
     }
   }
 
-
   // 添加新图片
   function addPic() {
     var len = img.length;
@@ -152,9 +151,5 @@ $(function () {
       top[min] += height + 4; //修改当前列的top值
     }
   }
-
-
-  // 瀑布流布局排列图片
-  // function setPic(index) {}
 
 })
