@@ -3,7 +3,7 @@
 ---
 ### 效果展示：   
 [https://hyung7.github.io/pictureSite/](https://hyung7.github.io/pictureSite/)   
-<font color=#f00>！由于占位图网站是国外的，图片可能加载比较慢</font>
+$\color{#FF0000}{！由于占位图网站是国外的，图片可能加载比较慢}$
 
 ---
 结合之前写的木桶布局和瀑布流布局写了一个简单的图片网站。
