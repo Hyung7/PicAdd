@@ -42,8 +42,8 @@ input {
 
 label {
   cursor: pointer;
-  line-height: 50px;
   font: 16px/50px SimSun;
+  margin-right: 10px;
 }
 
 label::before {
