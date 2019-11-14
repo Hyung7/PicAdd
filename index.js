@@ -6,7 +6,7 @@ $(function () {
     winWidth = $(window).width() - 20, // 可视区的宽(减去滚动条的宽)
     num = 0, // 木桶布局当前行图片数量
     column = 0, // 瀑布流布局图片列数
-    cate = 'abstract', // 图片类比
+    cate = 'animals', // 图片类比
     arr = 'barrel', // 布局
     img = []; // 图片
 
@@ -81,7 +81,7 @@ $(function () {
     var len = img.length;
     var width = parseInt(Math.random() * 100 + 100); // 图片的宽，100 - 200 之间随机数
     var height = parseInt(Math.random() * 100 + 100); // 图片的高，100 - 200 之间随机数
-    var url = "http://lorempixel.com/" + width + "/" + height + "/" + cate; // 图片的url
+    var url = "http://placeimg.com/" + width + "/" + height + "/" + cate; // 图片的url
     img[len] = $("<img src='" + url + "'>"); // 创建图片
     img[len].addClass(arr);
     img[len].w = width; // 当前图片的宽
