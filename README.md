@@ -10,4 +10,4 @@
 >获取图片方法：  
 网址：[http://placeimg.com](http://placeimg.com)  
 使用方法：http://placeimg.com/宽/高/分类
-例如：[http://placeimg.com/200/300/sports](http://placeimg.com/200/300/sports)
+例如：[http://placeimg.com/200/300/animals](http://placeimg.com/200/300/animals)
