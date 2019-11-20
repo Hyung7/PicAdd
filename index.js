@@ -6,7 +6,7 @@ $(function () {
     winWidth = $(window).width() - 20, // 可视区的宽(减去滚动条的宽)
     num = 0, // 木桶布局当前行图片数量
     column = 0, // 瀑布流布局图片列数
-    cate = 'animals', // 图片类比
+    cate = 'animals', // 图片类别
     arr = 'barrel', // 布局
     img = []; // 图片
 
