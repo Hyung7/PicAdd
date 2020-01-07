@@ -23,7 +23,7 @@ $(function () {
     num = 0; // 当前行图片数量
     img = []; // 图片
     $(".wrapper").html('');
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 30; i++) {
       addPic();
     }
   }
@@ -48,7 +48,7 @@ $(function () {
   // 页面滚动事件
   $(window).scroll(function () {
     // 如果文档高度 - 滚动条距离 < 1500,则添加图片
-    if ($(document).height() - $(window).scrollTop() < 1000) {
+    if ($(document).height() - $(window).scrollTop() < 1500) {
       addPic();
     }
   })
